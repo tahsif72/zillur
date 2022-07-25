@@ -1,0 +1,154 @@
+
+ .banner-image{ padding-top: 75px;    
+              padding-bottom: 50px; 
+              text-align: center;     
+              color: #f8f8f8; 
+              background: url(img/CC44.jpg) no-repeat center ; 
+              background-size: cover;
+              height: auto;
+              width: auto;
+
+} 
+
+.banner-content{
+    position:relative; 
+    padding-top: 6%; 
+    padding-bottom: 6%; 
+    margin-top: 12%; 
+    margin-bottom: 12%; 
+    background-color: rgba(90, 84, 84, 0.7); 
+    max-width: 660px;
+    overflow: hidden;
+    
+}
+
+.thumbnail img{
+    max-height: 150px; 
+}
+main {
+    min-height: 100vh;
+}
+
+footer{
+    padding: 10px 0; 
+    background-color: rgba(1, 1, 1, 0.871); 
+    color: bisque; 
+    bottom: 0; 
+    width: 100%; }
+.row_style{margin-top: 70px;
+}
+ h2{font-weight: bolder; 
+ }
+ .jumbotron_style{margin-top: 70px;
+ }
+ .table_style{margin-top: 70px;
+ }
+  h4{font-weight: bolder;
+  }
+ .container_style{margin-top: 80px;
+ }
+ 
+
+ .padding-20 {
+     padding: 20px;
+ }
+ 
+ .add-to-cart {
+   margin: 0;
+    background-color:  #f4511e;
+    color: #ffffff;
+    border: 1px solid cyan;
+    border-radius: 4px;
+    outline: none;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 400;
+	transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.add-to-cart span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.add-to-cart span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.add-to-cart:hover span {
+  padding-right: 10px;
+}
+
+.add-to-cart:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+ 
+ 
+
+.size {
+    margin: 0;
+    background-color:  #006600;
+    color: #ffffff;
+    border: 1px solid cyan;
+    border-radius: 4px;
+    outline: none;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 400;
+	transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+ }
+
+.size span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.size span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.size:hover span {
+  padding-right: 10px;
+}
+
+.size:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.h2{text-align: center;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.work-img {
+  display: block;
+  overflow: hidden;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
